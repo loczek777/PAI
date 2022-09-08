@@ -1,0 +1,156 @@
+<html>
+
+<link rel="stylesheet" href="es.css"> 
+<script src="sciezka.js"></script>
+<head>
+
+<meta charset="UTF-8">
+<title> Przypal </title>
+
+</head>
+
+<body>
+
+<div id="main">
+	<div class="kwadrat">
+		<img src="1.jpg" width="300" height="300"/> 
+		
+		<fieldset>
+    <legend>Wybierz Klase</legend>
+    <input type="checkbox" value="A" name="klasa" /> A<br>
+    <input type="checkbox" value="B" name="klasa" /> B<br>
+    <input type="checkbox" value="C" name="klasa" /> C<br>
+    <input type="checkbox" value="D" name="klasa" /> D<br>
+</fieldset>
+    </div>
+
+
+<div class="kwadrat">
+	<div class="blok">
+		<img src="2.jpg" width="300" height="300"/> 
+		
+    </div>
+	<fieldset>
+	<legend>Jak duzo chcesz sie nauczyc?</legend>
+    <input type="text" id="pole" value="">
+
+</fieldset>
+</div>	
+	
+<div class="kwadrat">
+	<div class="blok">
+		<img src="3.png" width="300" height="300"/>
+		
+    </div>
+	<fieldset>
+	<legend> Twoj zawod ? </legend>
+	<select id="Zawod">
+    <option value="Tech/Inf">Tech/Inf</option>
+    <option value="Tech/Fot">Tech/Fot</option>
+    <option value="Super Tech">Super Tech</option>
+    <option value="Bez zawodu">Bez zawodu</option>
+</select>
+</fieldset>
+</div>
+
+
+<div class="kwadrat">
+	<div class="blok">
+		<img src="4.jpg" width="300" height="300"/> 
+		<fieldset>
+	<legend>W jakich programach programowales?</legend>
+    <input type="text" id="pole" value="">
+	
+
+</fieldset>
+		
+        
+	</div>
+	
+</div>
+	
+	<div class="kwadrat">
+		
+		<div class="opis">
+		Best school in europe no.1 worldwide, best learning styles and a lot fun with newest things you can get on market.
+		<p>
+		Wybierz swoja klase juz teraz i zapraszamy!
+		</div>
+		</div>
+
+	<div class="kwadrat">
+		 
+		<div class="opis">
+		Masz lep do pomyslow witamy w zsk !
+		<p>
+		U nas kazdy ma minimum 78iq dlatego nasza szkola jest na topie w europie oraz niedlugo na swiecie
+		<p>
+		Nie czekaj zaplac juz dzis i chodz. 
+		</div>
+		</div>
+		
+		<div class="kwadrat">
+		
+		<div class="opis">
+		Postaw na rozwój w jednym z najbardziej przyszłościowych zawodów – zostań Technikiem Informatykiem! Bardzo duże możliwości na rynku pracy, ciekawe projekty i wysokie zarobki wiążą się bezpośrednio z pracą w tym charakterze. Żeby takie plany się ziściły, potrzebujesz kierunkowej edukacji na najwyższym poziomie. Właśnie to oferujemy Ci w Technikum Kreatywnym!
+		</div>
+		</div>
+		
+		<div class="kwadrat">
+		
+		<div class="opis">
+		Programowanie jest to proces tworzenia programu komputerowego posługując się kodem źródłowym. Najprościej mówiąc programowanie polega na opracowaniu poleceń dla komputera. Wyróżnia się dwa kody: źródłowy oraz wynikowy.
+		<p>
+		Przykladowy kalkulator naszego ucznia:
+		<p>
+		<script>
+function Calculator(operator) 
+{
+    var a = document.getElementById('a').value;
+    var b = document.getElementById('b').value;  
+ 
+    switch(operator) 
+    {
+        case '+':
+            var result = parseFloat(a) + parseFloat(b);         
+        break;
+        case '-':
+            var result = parseFloat(a) - parseFloat(b);         
+        break;  
+        case 'x':
+            var result = parseFloat(a) * parseFloat(b);         
+        break;  
+        case '/':
+            var result = parseFloat(a) / parseFloat(b);         
+        break;    
+    }
+ 
+    document.getElementById('result').value = '= ' + result;
+}
+</script>
+<form id="calculator">
+    <input type="text" id="a" placeholder="a" />
+    <input type="text" id="b" placeholder="b" />
+    <input type="text" id="result" placeholder="=" disabled="disabled" />
+    <button type="button" onclick="Calculator(this.innerHTML)">+</button> 
+    <button type="button" onclick="Calculator(this.innerHTML)">-</button>
+    <button type="button" onclick="Calculator(this.innerHTML)">x</button>   
+    <button type="button" onclick="Calculator(this.innerHTML)">/</button>
+</form>
+
+		</div>
+		</div>
+	
+
+
+</div>
+<a href="strona/strona.html">Nastepna strona</a>
+</body>
+
+
+
+
+
+
+
+</html>

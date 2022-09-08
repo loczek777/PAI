@@ -1,0 +1,55 @@
+#main{
+        height: 100%;
+        width: 100%;
+		margin: 0px auto;
+		background-color: yellow;
+}
+#img{
+		margin-top: 5%;
+		text-align: middle;
+		border-style: solid;
+		border-color: black;
+		border-width: 2px;
+		width: 30px;
+		height: 30px;
+		
+		
+}
+
+.opis{
+		height: 40%;
+		background-color:cyan;
+		margin-top: 5%;
+		padding-top: 3%;
+		font-weight: bold;
+		text-align: center;
+		
+}			
+.kwadrat{
+	width:400px;
+	height:430px;
+	background:red;
+	float:left;
+	margin: 10px 20px 0px 0px;
+	border: 2px solid black;
+}
+
+#calculator {
+    margin: 0 auto;
+    padding: 35px 25px 35px 25px;
+    width: 150px;
+    text-align: center;
+}
+#calculator button {
+    padding: 10px;
+    width: 40px;
+}
+#calculator input[type="text"] {
+    padding: 10px;
+    width: 147px;
+    margin-bottom: 5px;
+}
+
+#strona{
+	float:left;
+}
