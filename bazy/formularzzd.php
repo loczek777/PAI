@@ -13,7 +13,7 @@ echo "Login: " . htmlspecialchars($_POST['login']). "<br>";
 }
 
 if(isset($_POST['haslo1'])){
-echo "Haslo: " . htmlspecialchars($_POST['haslo1']). "<br>";}
+echo "Haslo: " . sha1(htmlspecialchars($_POST['haslo1'])). "<br>";} 
 
 
 if(isset($_POST['pamietaj'])) echo "Zapamietaj: "; 
